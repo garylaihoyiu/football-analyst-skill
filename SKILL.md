@@ -318,13 +318,33 @@ Write 3 hook options for every thread. Pick the sharpest one.
 - **No filler.** Every sentence earns its place.
 - **For Concept Explainers especially:** imagine explaining this to a smart friend who loves football but never studied tactics. They're curious, not ignorant. Treat them accordingly.
 
-**Threads article style:**
-- Flowing prose with section headers. Paragraphs of 3–5 sentences.
-- White space between sections — let the piece breathe.
-- Stats and quotes woven into the narrative, not bolted on.
-- 400–700 words is the sweet spot. Long enough to deliver real insight, short enough to finish in one scroll session.
+**HK Chinese Threads style (primary long-form output):**
+- Written **from scratch in HK Chinese** — not translated from the English Twitter thread
+- Same topic, same key facts, same stats, same section structure — but built natively in Chinese
+- Register: **formal written Chinese (書面語) with HK character** — quality HK sports journalism, not colloquial Cantonese
+- Minimise colloquial particles (係/喺/嘅) — use 書面語 grammar throughout
+- Section headers in **【】brackets** in bold
+- Flowing prose, white space between sections, 400–700 words
+- Stats and quotes woven into the narrative naturally
 
-**Twitter thread style:**
+**HK-specific vocabulary — use these to distinguish from Taiwan/Mainland Chinese:**
+- 若然 (not 如果/假如) — conditionals
+- 正正是 — "exactly / precisely" (HK emphasis)
+- 實質上 — "in reality / actually"
+- 值得留意的是 / 而巧妙的是 — transitions
+- 可見 — "as we can see"
+- 個人 / 個人認為 — first person opinions (not 我)
+- 亦 throughout (not 也)
+- 揀 (not 選擇), 踫 (not 觸碰), 撐 (hold out), 人堆, 兜圈, 大炒, 泊大巴
+
+**Football terminology in HK Chinese:**
+- Player names → always English (never transliterate: ✅ Howe, Yamal ❌ 夏禾, 雅馬爾)
+- Club names → HK shorthand: 紐卡素, 巴塞, 阿仙奴, 利物浦, 曼城, 車路士, 熱刺, 曼聯, 皇馬, 拜仁, 巴黎
+- Competition names → 歐聯, 英超, 西甲, 德甲, 意甲
+- Basic terms → translate: possession→控球, penalty→十二碼, cross→傳中, header→頭球, through ball→直線波, fullback→側後衛, centre-back→中堅, winger→翼鋒, penalty area→禁區, transition→攻守轉換, set piece→定位球, formation→陣式, clean sheet→零封, manager→領隊
+- Advanced concepts → keep English: low block, mid-block, high press, half space, false nine, box-to-box, xG, xA, VAR, pressing, formation numbers (4-3-3 etc.)
+
+**Twitter thread style (English only):**
 - One thought per tweet. Max 240 characters per tweet (aim shorter).
 - Every tweet must work as a standalone sentence — someone seeing just that tweet should feel compelled to read the thread.
 - Number every tweet: 1/, 2/, 3/ etc. End with "— END —" or a CTA like "Follow for more."
@@ -368,13 +388,12 @@ Present the **topic menu** (5–7 options, searched and current, covering all fo
 Identify the format, then deliver **both platform versions**:
 
 1. **Format label** — clearly state which of the four formats this is
-2. **3 hook options** — Hook A, B, C. Let the user pick before writing.
-3. **THREADS VERSION** — Full article using the correct structure for that format. Flowing prose, section headers, 400–700 words. This is the long-form piece.
-4. **TWITTER VERSION** — Condensed thread of 7–9 numbered tweets. Same insight, same angle, completely repackaged. Each tweet is 240 characters max and works as a standalone thought. Hook tweet first, then build the argument, close with a CTA.
-5. **Visual recommendation** — specific and actionable (one visual works for both platforms)
+2. **THREADS VERSION (HK Chinese)** — Written from scratch in formal HK Chinese (書面語). Same topic and facts as the English version, but composed natively in Chinese — not translated. Section headers in 【】brackets. 400–700 words. This is the long-form piece for Threads.
+3. **TWITTER VERSION (English)** — Condensed thread of 7–9 numbered tweets. Punchy, one thought per tweet, 240 characters max. Each tweet works as a standalone thought. Hook tweet first, build the argument, close with a CTA.
+4. **Visual recommendation** — specific and actionable (one visual works for both platforms)
 
-### Why two versions?
-Twitter and Threads are different beasts. Threads rewards long-form articles — readers scroll, read sections, engage with depth. Twitter rewards punchy numbered threads — each tweet must stop the scroll on its own. The same analysis needs to be packaged differently for each platform. Always produce both so the user can post simultaneously without extra work.
+### Why this split?
+Threads rewards long-form depth — readers scroll, read sections, engage with analysis. HK Chinese is the primary language for this account's Threads audience. Twitter rewards punchy English numbered threads — each tweet must stop the scroll on its own. Two platforms, two languages, two formats — always produce both so the user can post simultaneously without extra work.
 
 ---
 
