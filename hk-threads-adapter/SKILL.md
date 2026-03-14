@@ -1,13 +1,31 @@
 ---
 name: hk-threads-adapter
-description: Translates English football analysis Threads articles into Traditional Chinese for Hong Kong Threads audience. Use this skill whenever the user wants to translate a football post into Chinese for Threads. Trigger when the user says "translate for HK", "Threads HK version", "港版", "中文版", or asks to make a post suitable for Hong Kong Threads audience. Also trigger automatically after drafting any football Threads article when the user has indicated they want a HK Threads version.
+description: Writes a Hong Kong Chinese version of a football analysis post for Threads. Use this skill whenever the user wants a Chinese version of a football post for HK Threads. Trigger when the user says "translate for HK", "Threads HK version", "港版", "中文版", or asks to make a post suitable for Hong Kong Threads audience. Also trigger automatically after drafting any football Threads article when the user has indicated they want a HK Threads version.
 ---
 
 # HK Threads Adapter
 
-You are translating English football analysis articles into Traditional Chinese for a Hong Kong Threads audience. This is a **straight translation with natural rephrasing** — keep the same structure, same sections, same professional and tactical tone as the English original.
+You are writing a Hong Kong Chinese football analysis post for Threads. You are **not translating** the English article — you are **writing from scratch in HK Chinese**, using the same topic, same key facts, same stats, and same section structure as the English original.
 
-The target register is **formal written Chinese (書面語) with HK character** — the style of quality HK football sports writing, not colloquial Cantonese. Think 書面語 grammar with HK-specific vocabulary and football terminology.
+The goal is a piece that reads as if a native HK football writer sat down and wrote it directly in Chinese — not a translation with English sentence bones underneath it.
+
+The target register is **formal written Chinese (書面語) with HK character** — the style of quality HK football sports writing. Think 書面語 grammar with HK-specific vocabulary and football terminology.
+
+---
+
+## Core Approach
+
+### Write natively, not word-for-word
+- Take the same topic, facts, and analytical points from the English article
+- Build sentences in Chinese from scratch — do not map English sentences one-to-one
+- The rhythm, structure, and flow should feel natural in Chinese
+- Where the English version has a punchy short sentence, the Chinese version may need a different construction to achieve the same effect
+
+### Same content, same structure
+- Cover the same key points and stats as the English article
+- Follow the same section order
+- Use **【】brackets** for section headers
+- Similar overall length — do not compress or pad
 
 ---
 
@@ -64,7 +82,7 @@ Never transliterate player names into Chinese characters.
 - 皇馬 (Real Madrid), 拜仁 (Bayern), 巴黎 (PSG)
 - 歐聯 (Champions League), 英超 (Premier League), 西甲 (La Liga), 德甲 (Bundesliga), 意甲 (Serie A)
 
-### Basic Terms — Translate to Chinese
+### Basic Terms — Write in Chinese
 - possession → 控球 / 控球權
 - penalty → 十二碼
 - cross → 傳中
@@ -98,34 +116,33 @@ Never transliterate player names into Chinese characters.
 
 ## Format
 
-- Keep the **exact same section structure** as the English article
-- Use **【】brackets** for section headers (e.g. **【Howe 的部署】**)
-- Same paragraph length and flow — do not compress or expand the content
+- Use **【】brackets** for section headers
 - 亦 throughout instead of 也
 - No emojis unless they appear in the English original
-- Do not add casual commentary, personal interjections, or debate questions — this is a straight translation
+- No casual commentary, personal interjections, or debate questions
+- Ready to copy-paste into Threads
 
 ---
 
 ## Output
 
-Deliver the full translated article only, ready to copy-paste into Threads. No notes, no explanation, no translator's commentary.
+Deliver the full Chinese article only, ready to copy-paste into Threads. No notes, no explanation, no commentary.
 
 ---
 
-## Reference Style Examples
+## Reference Style
 
-**Register target — from real HK football writing:**
+**From real HK football writing — this is the target register:**
 > 「要分析這場比賽紐卡素的部署，要先將他們的防守分為兩個階段。整場比賽他們不斷在兩個階段中切換，各個階段都有各自的陣式和戰術，以應對不同的場面。」
 
 > 「從比賽數據中可見阿仙奴的後場失誤以及長傳的次數比平時多。更多的長傳，代表更多的「混亂」，正正是紐卡素一眾體力型球員最擅長的工作。」
 
-**English → Chinese translation sample:**
+**Native composition example (not translation):**
 
-English:
-> The low block isn't just defending deep. It's a spatial trap. By sitting compact around their own penalty area, Newcastle forced Barcelona into two choices: cross into a crowded box, or recycle and try again. Barcelona chose to cross — 24 times. Newcastle won 18 of those aerial duels.
+English article covered:
+> The long throw works because it bypasses the press. It arrives at an angle that cuts across defensive lines. The penalty area becomes unpredictable — headers, flick-ons, second balls.
 
-Chinese:
-> Low block 並非單純退守，而是一個空間陷阱。紐卡素縮守於自己禁區前，逼使巴塞只有兩條路：傳中攻入人堆，或者兜圈再找機會。巴塞揀了傳中——全場共24次，紐卡素贏得其中18次頭球。
+Native HK Chinese version (written from scratch, same point):
+> 長界外球的核心邏輯，和定位球一脈相承：它繞過了對方的逼搶。門將的長傳落地前，對方後衛已有足夠時間重整。但長界外球截然不同——一位擲球專家從邊線以35米以上的距離，將球直接擲入禁區，整個過程不經過地面，直接切入防線上方。頭球、輕撥、禁區前的第二點——情況變得混亂，而混亂從來都是進攻方的朋友。
 
-This is the target register: formal, analytical, HK-flavoured, with clean tactical language.
+Notice: the Chinese version is not a sentence-by-sentence map of the English. It builds the same argument in Chinese on its own terms.
