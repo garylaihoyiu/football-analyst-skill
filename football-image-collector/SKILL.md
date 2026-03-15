@@ -13,7 +13,7 @@ After a football analysis post has been drafted, your job is to:
 
 ---
 
-## Step 1 — Identify Image Needs
+## Step 1 ??Identify Image Needs
 
 Read the post and extract:
 - **Match**: which teams, which competition, which date
@@ -34,7 +34,7 @@ Based on this, decide which of the following image types are needed:
 
 ---
 
-## Step 2 — Search for Images
+## Step 2 ??Search for Images
 
 For each image type needed, search using WebSearch with specific queries:
 
@@ -58,7 +58,7 @@ For each image type needed, search using WebSearch with specific queries:
 
 ---
 
-## Step 3 — Download Images
+## Step 3 ??Download Images
 
 For each image found, download it to the desktop folder using PowerShell.
 
@@ -78,11 +78,11 @@ Invoke-WebRequest -Uri $url -OutFile "$folder\$filename"
 ```
 
 **Filename convention:**
-- `01_match_stats.png` — SofaScore/WhoScored match overview
-- `02_xg_chart.png` — xG or shot map
-- `03_player_stats.png` — player stat card
-- `04_heatmap.png` — heatmap or touch map
-- `05_match_action.jpg` — official match photo
+- `01_match_stats.png` ??SofaScore/WhoScored match overview
+- `02_xg_chart.png` ??xG or shot map
+- `03_player_stats.png` ??player stat card
+- `04_heatmap.png` ??heatmap or touch map
+- `05_match_action.jpg` ??official match photo
 
 **If a direct image URL cannot be found or the download is blocked:**
 - Save a text file `image_links.txt` in the same folder with the URL and description
@@ -98,22 +98,22 @@ $links | Out-File "$folder\image_links.txt" -Encoding UTF8
 
 ---
 
-## Step 4 — Report to User
+## Step 4 ??Report to User
 
 After completing, report:
 
 ```
-📁 Folder created: Desktop/[date] - [topic]
+?? Folder created: Desktop/[date] - [topic]
 
-✅ Downloaded:
+??Downloaded:
 - 01_match_stats.png (SofaScore)
 - 02_xg_chart.png (Understat)
 
-🔗 Manual save needed (links saved in image_links.txt):
-- Match action photo: [URL] — official Newcastle Twitter post-match
-- Player heatmap: [URL] — SofaScore (login required)
+?? Manual save needed (links saved in image_links.txt):
+- Match action photo: [URL] ??official Newcastle Twitter post-match
+- Player heatmap: [URL] ??SofaScore (login required)
 
-💡 Tip: [Any note about image quality or alternatives]
+? Tip: [Any note about image quality or alternatives]
 ```
 
 ---
@@ -136,7 +136,7 @@ After completing, report:
 ## Important Notes
 
 - Only download images that are publicly accessible (no login wall)
-- For images behind login (SofaScore heatmaps, etc.) — save the URL in `image_links.txt`
+- For images behind login (SofaScore heatmaps, etc.) ??save the URL in `image_links.txt`
 - Always note the source so the user can credit correctly when posting
 - Do not download Getty / AFP / Reuters watermarked images
 - Official club and league social media posts are the safest source for match action
